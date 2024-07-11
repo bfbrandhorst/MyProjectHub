@@ -1,6 +1,8 @@
+import '../CSS/Footer.css'
+
 export const Footer = () => {
     return (
-      <footer>
+      <footer className="footer">
         <h3>Thanks for visiting!</h3>
       </footer>
     );

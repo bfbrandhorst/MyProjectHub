@@ -1,0 +1,21 @@
+.NavBar {
+    display:flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    padding: 1rem;
+    background-color: aliceblue;
+    color:gray;
+    margin-top: 0;
+}
+
+
+
+
+.NavItem {
+    list-style: none;
+}
+
+.NavLink {
+    text-decoration: none;
+    color: inherit
+}
