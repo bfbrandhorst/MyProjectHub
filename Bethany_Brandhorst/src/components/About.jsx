@@ -1,5 +1,5 @@
 import React from 'react'
-import imageOne from '../assets/imageOne.jpg'
+import macbookUnsplash from '../assets/macbookUnsplash.jpg'
 import '../CSS/About.css'
 
 const About = () => {
@@ -8,7 +8,7 @@ const About = () => {
       <section className='imageContent'>
         <h1 className='header'> about me </h1>
         <div className='imageContainer'> 
-            <img src={imageOne} alt="" />
+            <img src={macbookUnsplash} alt="" />
         </div>
       </section>
       <section className='aboutContent'>

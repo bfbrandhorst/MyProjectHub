@@ -1,0 +1,18 @@
+.projectContainer{
+    padding:2rem;
+    display:flex;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+
+.projectContainer>*{
+    flex: 1;
+}
+
+.projectCard{
+    min-width: 20rem;
+    max-width: 35rem;
+    padding:1rem;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+}
