@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import '../CSS/Contact.css'
 
 const Contact = () => {
     const [name, setName]=useState('')
@@ -76,7 +77,7 @@ const Contact = () => {
             id="message"
             value={message}
             onChange={(e)=>setMessage(e.target.value)}>
-                
+
             </textarea>
             {messageErr&& <p>{messageErr}</p>}
         </div>
