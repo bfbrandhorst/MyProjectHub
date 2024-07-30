@@ -16,18 +16,18 @@ class ResumeViewer extends React.Component {
         const resumeContent = `
         <div style="font-family: Arial, sans-serif; width: 600px; margin: auto;">
             
-            <p>Job Title</p>
-            <p>Email: example@example.com</p>
+            <p>Software Developer</p>
+            <p>Email: bfBrandhorst@gmail.com</p>
             <p>Skills:</p>
             <ul>
-                <li>Skill 1</li>
-                <li>Skill 2</li>
-                <li>Skill 3</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>React</li>
             </ul>
             <p>Experience:</p>
             <ul>
-                <li>Company A, Jan 2020 - Present</li>
-                <li>Company B, Jan 2018 - Dec 2019</li>
+                <li>Full Stack Software Development, University Texas Austin Bootcamp, Feb 2024 - Aug 2024</li>
+                <li>VCA Veterinary Care, Jan 2013 - April 2022</li>
             </ul>
         </div>
     `;
