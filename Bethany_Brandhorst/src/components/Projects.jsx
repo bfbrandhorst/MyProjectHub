@@ -1,11 +1,12 @@
 import React from 'react'
-import image from '../assets/imageOne.jpg'
+// import image from '../assets/imageOne.jpg'
 import '../CSS/Project.css'
 import ReadMe from '../assets/ReadMe.jpg'
-import Weather from '../assets/Weather.png'
-import ECommerce from '../assets/ECommerce.png'
-import PayrollTracker from '../PayrollTracker.png'
-import SVG from '../assets/SVG.png'
+import Weather from '../assets/Weather.jpg'
+import ECommerce from '../assets/ECommerce.jpg'
+import PayrollTracker from '../assets/PayrollTracker.jpg'
+import SVG from '../assets/SVG.jpg'
+import SliceOverflow from '../assets/SliceOverflow.jpg'
 
 
 const Projects = () => {
@@ -48,8 +49,8 @@ const Projects = () => {
         {
             projectTitle:"Slice Overflow",
             projectDescription: "This project is a full web application for a Pizza Parlor, built from scratch using numerous technologies.",
-            image: image,
-            gitHubUrl: "https://github.com/bfbrandhorst/SliceOverflow",
+            image: SliceOverflow,
+            gitHubUrl: "www.google.com",
             deployedLink: "www.google.com"
         },
     
@@ -64,8 +65,11 @@ const Projects = () => {
                 <h3>{project.projectTitle}</h3>
                 <img src={project.image}/>
                 <p>{project.projectDescription}</p>
-                <a href={project.gitHubUrl}>link to repository</a>
-                <a href={project.deployedLink}>link to deployed site</a>
+                <div className='projectLinks'>
+                <a href={project.gitHubUrl} target='_blank' rel='noopener noreferrer'>link to repository</a>
+                <a href={project.deployedLink} target='_blank' rel='noopener noreferrer'>link to deployed site</a>
+                </div>
+                
             </div>
         ))
       }
